@@ -1,9 +1,20 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Madhuri"
     }
   ],
-  "posts": []
+  "posts": [
+    {
+      "id": 101,
+      "userId": 1,
+      "title": "John's First Post",
+      "body": "This is a sample post by John Doe."
+    }
+  ]
 }
