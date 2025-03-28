@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+/* Main Page Container */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* ========== Top Users Section ========== */
+.top-users {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.top-users h2 {
+  color: white;
+}
+
+.top-users ul {
+  padding: 0;
+}
+
+.top-users li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.top-users li:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* ========== Trending Posts Section ========== */
+.trending-posts {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.trending-posts h2 {
+  color: white;
+}
+
+.trending-posts li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.trending-posts li:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* ========== Live Feed Section ========== */
+.feed {
+  background: linear-gradient(135deg, #23a6d5, #23d5ab);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.feed h2 {
+  color: white;
+}
+
+.feed li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.feed li:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+/* Post Card */
+.post-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+  color: #333;
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
